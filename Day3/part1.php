@@ -24,7 +24,7 @@ for ($i = 0; $i < strlen($input); $i++) {
   if (!is_null($houses[$x][$y])) {
     $houses[$x][$y]++;
   } else {
-    $houses[$x][$y] = 0;
+    $houses[$x][$y] = 1;
   }
 }
 

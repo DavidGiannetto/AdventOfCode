@@ -26,7 +26,7 @@ for ($i = 0; $i < strlen($input); $i++) {
     if (!is_null($houses[$santaX][$santaY])) {
       $houses[$santaX][$santaY]++;
     } else {
-      $houses[$santaX][$santaY] = 0;
+      $houses[$santaX][$santaY] = 1;
     }
   } else { //roboSanta
     if ($char == '>') {
@@ -42,7 +42,7 @@ for ($i = 0; $i < strlen($input); $i++) {
     if (!is_null($houses[$roboX][$roboY])) {
       $houses[$roboX][$roboY]++;
     } else {
-      $houses[$roboX][$roboY] = 0;
+      $houses[$roboX][$roboY] = 1;
     }
   }
 }
